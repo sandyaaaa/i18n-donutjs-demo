@@ -50,6 +50,9 @@ class App extends React.Component {
     const { locale } = this.state;
     const { messages, localeData } = getTranslations(locale);
     console.log({ messages, localeData })
+    
+    // addLocaleData([..en, ..fr, de]);
+    
     addLocaleData([...localeData]);
     return (
       <div>
