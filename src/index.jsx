@@ -2,6 +2,10 @@ import React from 'react';
 import { render } from 'react-dom';
 import { IntlProvider, addLocaleData, FormattedMessage, defineMessages } from 'react-intl';
 
+/* 
+import en from 'node_modules/react-intl/en';
+import fr from 'node_modules/react-intl/fr';
+import de from 'node_modules/react-intl/de';
 const messages = {
   'de': {
     'hello': 'Guten Tag!'
@@ -10,6 +14,7 @@ const messages = {
     'hello': 'Bonjour!'
   }
 };
+*/
 
 const getTranslations = (locale) => {
   let messages = {};
